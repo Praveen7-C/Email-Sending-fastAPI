@@ -261,10 +261,6 @@ When deployed to AWS Lambda:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Authors
-
-- C. Praveen  - [GitHub Profile](https://github.com/Praveen7-C)
-
 ## Acknowledgments
 
 - [FastAPI](https://fastapi.tiangolo.com/) for the amazing framework

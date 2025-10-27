@@ -1,0 +1,24 @@
+service: email-api-fastapi  # The name of the service
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: us-east-1
+  environment:
+    GMAIL_USER: ${env:GMAIL_USER}  # Gmail user environment variable
+    GMAIL_APP_PASSWORD: ${env:GMAIL_APP_PASSWORD}  # Gmail app password
+
+functions:
+  sendEmail:
+    handler: app.handler  # Points to the Mangum handler in app.py
+    events:
+      - http:
+          path: send-email  # API Gateway path
+          method: post      # POST method
+          cors: true        # Enable CORS for cross-origin requests
+
+plugins:
+  - serverless-offline  # Local testing support using Serverless Offline
+
+
+

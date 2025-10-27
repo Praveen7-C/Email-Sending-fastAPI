@@ -32,11 +32,11 @@ uvicorn app:app --reload
 
 ## Key Features
 
-- ** FastAPI** - Modern, fast web framework for building APIs
-- ** Gmail SMTP** - Reliable email delivery using Gmail's SMTP server
-- ** Serverless** - Deploy to AWS Lambda with zero server management
-- ** Swagger UI** - Interactive API documentation and testing
-- ** Secure** - Environment-based configuration and app password authentication
+- **FastAPI** - Modern, fast web framework for building APIs
+- **Gmail SMTP** - Reliable email delivery using Gmail's SMTP server
+- **Serverless** - Deploy to AWS Lambda with zero server management
+- **Swagger UI** - Interactive API documentation and testing
+- **Secure** - Environment-based configuration and app password authentication
 
 ## Features
 - **FastAPI** for API development.
